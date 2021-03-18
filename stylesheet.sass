@@ -1,0 +1,49 @@
+body, html
+	padding: 0
+	margin: 0
+	background-color: black
+
+.scene
+	background-color: white
+	width: 100%
+	height: 350px
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	overflow: hidden
+
+	// @media screen and (min-aspect-ratio: 16/9)
+	// 	height: 100%
+	// 	width: calc((16/9)*100vh)
+
+	// @media screen and (max-aspect-ratio: 16/9)
+	// 	width: 100%
+	// 	height: calc((9/16)*100vw)
+
+
+.content
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translateY(-50%)
+	height: 100%
+
+	display: flex
+	justify-content: center
+	vertical-align: middle
+
+	// padding: 0px 200px
+	// flex-direction: column
+
+.node
+	background-color: #aaa
+	width: 180px
+	height: 240px
+	margin: auto 10px
+	padding: 30px
+	box-sizing: border-box
+
+	display: flex
+	justify-content: center
+	align-items: center
